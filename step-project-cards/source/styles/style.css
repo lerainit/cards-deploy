@@ -1,0 +1,7 @@
+.edit-form{
+    display: flex;
+    flex-direction: column;
+}
+.form__submit-btn{
+    margin: 20px 0;
+}
