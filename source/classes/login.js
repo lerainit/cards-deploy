@@ -29,6 +29,7 @@ class Login extends Modal {
         this.passwordInputLabel.innerHTML = 'Password'
         this._submitButton.type = 'submit'
         this._submitButton.value = 'Войти'
+        this._submitButton.classList.add('submit_btn')
         this.form.classList.add('login_form')
         this._mainContainer.append(this.form)
         this.form.append(this.emailInputLabel)

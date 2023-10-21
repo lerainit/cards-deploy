@@ -18,7 +18,7 @@ header{
 }
 .login_btn {
     border-radius: 15px;
-    border-color: black;
+    border: 0.5px solid black;
     background-color: #67b0d9;
     padding: 6px;
 }
@@ -55,14 +55,14 @@ header{
 #filter {
     width: 300px;
     border-radius: 15px;
-    border-color: black;
+    border:1px solid grey;
     padding: 6px;
 }
 .filter_btn {
     padding: 10px 15px;
     border-radius: 15px;
     background-color: #67b0d9;
-    border-color: black;
+    border:1px solid grey;
 }
 .container{
     background: url(./img/bg1.jpeg)center no-repeat;
@@ -81,7 +81,7 @@ header{
 .card_container{
    /*  background: url(./img/bg2.jpeg) no-repeat;  */
     opacity: 75%;
-    border: 2px solid #1c2367;
+    border: 1px solid #1c2367;
     background-color: #e6ebf9;
     border-radius: 15px;
     padding: 10px;
@@ -94,12 +94,14 @@ header{
     left: 12px;
     padding: 4px;
     border-radius: 15px;
+    border: 1px solid grey;
     background-color: #67b0d9;
 }
 .delete_btn {
     padding: 4px;
     background-color: #ee5555;
     border-radius: 15px;
+    border: 1px solid grey;
     top: 9px;
     left: 200px;
     margin-left: 80px;
@@ -107,6 +109,7 @@ header{
 .show_btn {
     padding: 4px;
     border-radius: 15px;
+    border: 1px solid grey;
     background-color: #67b0d9;
     margin-left: 67px;
 }
@@ -288,4 +291,9 @@ header{
     border: 0.5px solid grey;
 }
 
-
+.submit_btn{
+    background-color: darkcyan;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    width: 100px;
+}
