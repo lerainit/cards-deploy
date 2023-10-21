@@ -68,7 +68,7 @@ header{
     background: url(./img/bg1.jpeg)center no-repeat;
     background-attachment: fixed;
     width: 100%;
-    height: 100%;
+    height: 100vH;
     background-size: cover;
     margin: 0 auto;
     position: relative;
@@ -270,3 +270,22 @@ header{
     background-color: #ee5555;
     
 }
+.login_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#password{
+    width: 500px;
+    height: 40px;
+    border-radius: 7px;
+    border: 0.5px solid grey;
+}
+#email{
+    width: 500px;
+    height: 40px;
+    border-radius: 7px;
+    border: 0.5px solid grey;
+}
+
+
