@@ -297,3 +297,10 @@ header{
     border: 0.5px solid grey;
     width: 100px;
 }
+.submit_form input{
+    width:300px;
+    height:50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+
+}
