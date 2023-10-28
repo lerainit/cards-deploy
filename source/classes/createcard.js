@@ -15,9 +15,11 @@ export class createCard extends Modal {
   createElements() {
     super.createElements()
     this._submitButton.type = 'submit'
-    this.select.size = 3;
+    this.select.size = 4;
+    this.select.style.outline ="none"
+    this.select.style.borderRadius = "5px";
     this._submitButton.value = 'Подтвердить';
-
+    this._submitButton.style.backgroundColor = "cadetblue"
     this._mainContainer.append(this.select)
     this.select.insertAdjacentHTML('beforeend', `
   <option disabled>Выберите доктора</option>
