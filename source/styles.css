@@ -314,7 +314,18 @@ header{
         flex-direction: column;
 
     }
-
+    #password{
+        width: 500px;
+        height: 40px;
+        border-radius: 7px;
+        border: 0.5px solid grey;
+    }
+    #email{
+        width: 500px;
+        height: 40px;
+        border-radius: 7px;
+        border: 0.5px solid grey;
+    }
 }
 .visit_select{
     border: 0.5px solid grey;
