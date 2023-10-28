@@ -316,3 +316,7 @@ header{
     }
 
 }
+.visit_select{
+    border: 0.5px solid grey;
+    outline: none;
+}

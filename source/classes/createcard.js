@@ -18,6 +18,7 @@ export class createCard extends Modal {
     this.select.size = 4;
     this.select.style.outline ="none"
     this.select.style.borderRadius = "5px";
+    this.select.style.border = "0.5px solid grey";
     this._submitButton.value = 'Подтвердить';
     this._submitButton.style.backgroundColor = "cadetblue"
     this._mainContainer.append(this.select)
