@@ -326,6 +326,9 @@ header{
         border-radius: 7px;
         border: 0.5px solid grey;
     }
+    .container{
+        flex-direction: column;
+    }
 }
 .visit_select{
     border: 0.5px solid grey;
