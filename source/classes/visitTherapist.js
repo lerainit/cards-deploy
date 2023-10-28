@@ -12,8 +12,8 @@ class VisitTherapist extends Visit{
         this.submitBtn.innerHTML = 'Создать визит';
         this.submitBtn.classList.add('btn_for_therapist');
         this.form.insertAdjacentHTML('beforeend', `
-        <label for="age">Возраст</label>><br>
-        <input id="age" type="number">><br>`);
+        
+        <input id="age" placeholder="age" type="number"><br>`);
         this.submitBtn.addEventListener('click', (event) =>{
             event.preventDefault();
             this.postCard()});

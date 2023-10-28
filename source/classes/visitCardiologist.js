@@ -12,13 +12,13 @@ createElements(){
     this.submitBtn.innerHTML = 'Создать визит'
 this.submitBtn.classList.add('btn_for_cardiologist')
    this.form.insertAdjacentHTML('beforeend',`
-   <label for="pressure">Ваше обычное давление</label><br>
+ 
    <input id ="pressure" type ="text" placeholder="Ваше обычное давление" value=""><br>
-   <label for= "weight">Индекс массы тела</label><br>
+  
    <input id ="weight" type ="text" placeholder="Индекс массы тела" value=""><br>
-   <label for ="diseases">Перенесенные заболевания сердечно сосудистой системы</label><br>
+   
    <input  id = "diseases" type ="text" placeholder="Перенесенные заболевания сердечно сосудистой системы" value=""><br>
-   <label for ="age">Возраст</label><br>
+
    <input id ="age"  type ="text" placeholder="Возраст" value=""><br>
    `)
 this.form.append(this.submitBtn)
