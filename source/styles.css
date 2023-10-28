@@ -304,3 +304,14 @@ header{
     border: 1px solid grey;
 
 }
+@media (max-width: 600px) {
+    .submit_form input{
+        width: 150px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
