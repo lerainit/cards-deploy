@@ -22,7 +22,9 @@ class Filter {
         this.filterContainer.append(this.filterBtn)
         this.filterForm.classList.add('filter_form')
         this.filterSelect.classList.add('filter_select')
-        this.filterSelect.size = "2"
+        this.filterSelect.size = "4"
+        this.filterSelect.style.outline ="none"
+        this.filterSelect.style.borderRadius ="5px"
         this.filterLabel.for = 'filter'
         this.filterLabel.innerHTML = 'Поиск'
         this.filterInput.type = 'text'
